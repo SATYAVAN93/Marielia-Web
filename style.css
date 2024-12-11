@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p,
+a,
+ul,
+li {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+.header .navbar {
+  background: #1A1919;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+  color: #B08EAD;
+}
+
+.header .navbar .navbar-brand img {
+  width: 80px;
+}
+
+/* header curosel */
+.carousel {
+  background-color: #B08EAD;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  /* position: absolute; */
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: 50vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  width: 60%;
+  padding: 100px;
+  background-color: #a68fac;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -70px;
+
+}
+
+.text h2 {
+  font-size: 24px;
+  /* margin-bottom: 20px; */
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.buy-now {
+  margin-top: auto;
+  padding: 10px 20px;
+  background-color: white;
+  color: #a68fac;
+  border: none;
+  cursor: pointer;
+}
+
+/* services */
+.header-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card-custom {
+  border: none;
+  text-align: center;
+}
+
+.card-img-top-custom {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.btn-custom {
+  background-color: #dab2e1;
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #c093d3;
+}
+
+/* /About section */
+.custom-card {
+  background-color: #a68fac;
+  color: white;
+  padding: 50px;
+}
+
+.custom-image {
+  width: 430px;
+}
+
+.About-me {
+  background-color: #ceb3cb;
+}
+
+.section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section img {
+  max-width: 100%;
+  border: 1px solid #eee;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.bigning .row {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border: 0;
+}
+
+.boxInput {
+  background: #c093d3;
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-info h5 {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.contact-form button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.contact-form button:hover {
+  background-color: #ffffff;
+  color: #d8bfd8;
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-info h5 {
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  border: 1px solid #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.contact-form button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 10px 20px;
+}
